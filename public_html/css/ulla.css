@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.6.2020
+    Author     : Maria Järvinen
+*/
+main{
+    font-family:sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+.tekija{
+    font-size: 0.7em !important;
+}
+header{
+    background-color: white;
+}
+footer{
+    background-color: white;
+    color: #195BD7;
+}
+.nav-link{
+    color:#195BD7 !important;
+    font-size: 1.5em;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(35, 106, 185, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler{
+    border-color: #195BD7 !important;
+}
+.viiva{
+    background-color: white;
+}
+.piirto{
+    width: 40%;
+}
+
+.nauha{
+    color: whitesmoke;
+    background-color: #195BD7;
+}
+
+.kielet{
+    width: 40%;
+    text-align: justify;
+}
+.paksu{
+    font-weight: bold;
+}
+.kortti{
+    font-size: 2em;
+    color:#195BD7;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    text-align: left;
+    margin-left: 10px;
+}
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+a{
+color: #171a1d !important;
+}
